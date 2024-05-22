@@ -1,0 +1,78 @@
+.containerofusers {
+    width: 350px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(230, 237, 247);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+    border: none;
+}
+.background {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.containerofusers button {
+    width: 100px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: rgb(28, 138, 240);
+    color: white;
+    border: none;
+}
+button:hover {
+    background-color: white;
+    color: rgb(14, 109, 242);
+    height: 50px;
+}
+.containerofusers:hover {
+    background-color: rgb(193, 216, 236);
+    box-shadow: inset 10px 10px 10px gray;
+}
+.formdetails {
+    width: 380px;
+    height: 700px;
+    background-color: rgb(184, 189, 189);
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 45px;
+    font-size: 20px;
+}
+.formdetails input {
+    height: 50px;
+    width: 350px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.formdetails button {
+    height: 100px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(170, 248, 196);
+    font-size: 20px;
+}
+.common .formbg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
